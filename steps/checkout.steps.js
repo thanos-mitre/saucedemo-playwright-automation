@@ -7,7 +7,7 @@ Given('I am on the checkout information page', async function () {
     await this.inventoryPage.openCart();
     await this.cartPage.verifyLoaded();
     await this.cartPage.checkout();
-    await this.page.waitForURL('**/checkout-step-one.html', { timeout: 20000 }).catch(() => {});
+    await this.page.waitForURL('**/checkout-step-one.html', { timeout: 20000 });
   }
 });
 
@@ -18,15 +18,14 @@ When('I submit valid checkout information', async function () {
     this.testData.checkout.lastName,
     this.testData.checkout.postalCode
   );
-  await this.checkoutPage.continue();
-  await this.page.waitForURL('**/checkout-step-two.html', { timeout: 20000 }).catch(() => {});
+  await this.checkoutPage.proceedToOverview();
   await this.checkoutPage.finish();
 });
 
 // Submit incomplete information to trigger validation errors.
 When('I submit incomplete checkout information', async function () {
   await this.checkoutPage.fillInformation('', '', '');
-  await this.checkoutPage.continue();
+  await this.checkoutPage.clickContinue();
 });
 
 // Verify success confirmation text after completing checkout.

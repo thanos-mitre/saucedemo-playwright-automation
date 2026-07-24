@@ -12,7 +12,7 @@ class CartPage extends BasePage {
 
   /** Check that the cart page loaded and shows the expected title. */
   async verifyLoaded() {
-    await expect(this.pageTitle).toHaveText('Your Cart', { timeout: 15000 });
+    await expect(this.pageTitle).toHaveText('Your Cart');
   }
 
   /** Return true when a cart item matching the given name is visible. */
@@ -22,10 +22,7 @@ class CartPage extends BasePage {
 
   /** Remove a cart item by clicking its remove button. */
   async removeItem(name) {
-    const item = this.page.locator(`.cart_item:has-text("${name}")`);
-    await expect(item).toBeVisible({ timeout: 15000 });
-    const button = item.locator('button');
-    await expect(button).toBeVisible({ timeout: 15000 });
+    const button = this.page.locator(`.cart_item:has-text("${name}") button`);
     await button.click();
   }
 

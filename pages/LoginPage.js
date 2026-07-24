@@ -16,9 +16,7 @@ class LoginPage extends BasePage {
    */
   async goto() {
     await this.page.goto('https://www.saucedemo.com/', { waitUntil: 'domcontentloaded', timeout: 20000 });
-    await expect(this.usernameInput).toBeVisible({ timeout: 15000 });
-    await expect(this.passwordInput).toBeVisible({ timeout: 15000 });
-    await expect(this.loginButton).toBeVisible({ timeout: 15000 });
+    await expect(this.usernameInput).toBeVisible({ timeout: 10000 });
   }
 
   /**

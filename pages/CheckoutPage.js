@@ -21,15 +21,18 @@ class CheckoutPage extends BasePage {
   }
 
   /** Click the continue button to proceed to the overview step. */
-  async continue() {
-    await expect(this.continueButton).toBeVisible({ timeout: 10000 });
+  async proceedToOverview() {
     await this.continueButton.click();
-    await this.page.waitForURL('**/checkout-step-two.html', { timeout: 20000 }).catch(() => {});
+    await this.page.waitForURL('**/checkout-step-two.html', { timeout: 10000 });
+  }
+
+  /** Click continue without expecting navigation (for validation-error scenarios). */
+  async clickContinue() {
+    await this.continueButton.click();
   }
 
   /** Complete the purchase by clicking the finish button. */
   async finish() {
-    await expect(this.finishButton).toBeVisible({ timeout: 15000 });
     await this.finishButton.click();
   }
 

@@ -13,16 +13,13 @@ class InventoryPage extends BasePage {
 
   /** Ensure the inventory page is visible and contains the expected items. */
   async verifyLoaded() {
-    await expect(this.pageTitle).toHaveText('Products', { timeout: 15000 });
-    await expect(this.inventoryItems).toHaveCount(6, { timeout: 15000 });
+    await expect(this.pageTitle).toHaveText('Products');
+    await expect(this.inventoryItems).toHaveCount(6);
   }
 
   /** Click the add-to-cart button for a product by its display name. */
   async addProductByName(name) {
-    const item = this.page.locator(`.inventory_item:has-text("${name}")`);
-    await expect(item).toBeVisible({ timeout: 15000 });
-    const button = item.locator('button');
-    await expect(button).toBeVisible({ timeout: 15000 });
+    const button = this.page.locator(`.inventory_item:has-text("${name}") button`);
     await button.click();
   }
 
@@ -39,7 +36,6 @@ class InventoryPage extends BasePage {
 
   /** Navigate to the cart page using the cart icon/link. */
   async openCart() {
-    await expect(this.cartLink).toBeVisible({ timeout: 15000 });
     await this.cartLink.click();
   }
 
