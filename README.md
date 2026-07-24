@@ -217,8 +217,6 @@ Maintenance tips
 - When application selectors or routes change, update only the affected page object methods and, if necessary, step assertions.
 - Add documentation for any architectural changes or major test additions (update README or add an ARCHITECTURE.md in docs/).
 
-If you'd like, the README can also include a small ASCII component diagram or sequence example showing how a single scenario flows through the world, hooks, steps, and page objects. Let me know if that extra diagram would be helpful and whether to commit the README change now.
-
 ## Recommended Best Practices
 - Keep feature files readable and business-focused
 - Avoid implementation logic inside `.feature` files
@@ -230,18 +228,3 @@ If you'd like, the README can also include a small ASCII component diagram or se
 - The current setup runs headlessly by default; modify `headless: true` in `steps/hooks.js` if you need visible browser debugging.
 - The project is intentionally BDD-first and does not require Playwright test runner configuration.
 - `allure-results` is generated during Cucumber execution and can be used to build HTML reports.
-
-## Troubleshooting
-### When tests fail unexpectedly
-- Confirm `https://www.saucedemo.com` is reachable
-- Confirm Chrome/Chromium is installed and available
-- Check the console output for locator failures or assertion messages
-- Regenerate the Allure report after test execution
-
-### When Allure report generation fails
-- Ensure `allure-commandline` is available locally via npm
-- Run `npm run test:report` after successful scenario execution
-- Inspect `allure-results` for missing JSON or XML artifacts
-
-## License
-This repository does not include a license declaration. Add one if you plan to share or publish this framework.
