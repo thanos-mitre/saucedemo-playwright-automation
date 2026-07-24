@@ -1,0 +1,66 @@
+{
+  "userGroups": {
+    "valid": ["standard", "problem", "performanceGlitch", "error", "visual"],
+    "lockedOut": ["lockedOut"],
+    "invalid": ["invalid"]
+  },
+  "users": {
+    "standard": {
+      "role": "standard",
+      "group": "valid",
+      "username": "standard_user",
+      "password": "secret_sauce"
+    },
+    "lockedOut": {
+      "role": "locked_out",
+      "group": "lockedOut",
+      "username": "locked_out_user",
+      "password": "secret_sauce"
+    },
+    "problem": {
+      "role": "problem",
+      "group": "valid",
+      "username": "problem_user",
+      "password": "secret_sauce"
+    },
+    "performanceGlitch": {
+      "role": "performance_glitch",
+      "group": "valid",
+      "username": "performance_glitch_user",
+      "password": "secret_sauce"
+    },
+    "error": {
+      "role": "error",
+      "group": "valid",
+      "username": "error_user",
+      "password": "secret_sauce"
+    },
+    "visual": {
+      "role": "visual",
+      "group": "valid",
+      "username": "visual_user",
+      "password": "secret_sauce"
+    },
+    "invalid": {
+      "role": "invalid",
+      "group": "invalid",
+      "username": "bad_user",
+      "password": "bad_password"
+    }
+  },
+  "products": {
+    "primary": "Sauce Labs Backpack",
+    "secondary": "Sauce Labs Bike Light",
+    "all": [
+      "Sauce Labs Backpack",
+      "Sauce Labs Bike Light",
+      "Sauce Labs Bolt T-Shirt",
+      "Sauce Labs Fleece Jacket"
+    ]
+  },
+  "checkout": {
+    "firstName": "Jane",
+    "lastName": "Doe",
+    "postalCode": "90210"
+  }
+}

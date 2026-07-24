@@ -1,0 +1,4930 @@
+[
+  {
+    "description": "  As a SauceDemo user\n  I want to authenticate using valid and invalid credentials\n  So that I can access the products page or see proper error messages",
+    "elements": [
+      {
+        "description": "",
+        "id": "authentication;login-with-valid-credentials",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "Login with valid credentials",
+        "steps": [
+          {
+            "result": {
+              "status": "passed",
+              "duration": 108739000
+            },
+            "keyword": "Before",
+            "hidden": true
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 1013606000
+            },
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "I am on the login page",
+            "match": {
+              "location": "steps\\auth.steps.js:4"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 86616300
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "I login with a standard user",
+            "match": {
+              "location": "steps\\auth.steps.js:32"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 8484199
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "I should be redirected to the products page",
+            "match": {
+              "location": "steps\\auth.steps.js:64"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 33523300
+            },
+            "keyword": "After",
+            "hidden": true
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "authentication;login-with-supported-users-from-shared-test-data",
+        "keyword": "Scenario Outline",
+        "line": 18,
+        "name": "Login with supported users from shared test data",
+        "steps": [
+          {
+            "result": {
+              "status": "passed",
+              "duration": 94426099
+            },
+            "keyword": "Before",
+            "hidden": true
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 1002486600
+            },
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 12,
+            "name": "I am on the login page",
+            "match": {
+              "location": "steps\\auth.steps.js:4"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 89238299
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 13,
+            "name": "I login with the \"standard\" user",
+            "match": {
+              "location": "steps\\auth.steps.js:45"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 5361399
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "I should be redirected to the products page",
+            "match": {
+              "location": "steps\\auth.steps.js:64"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 31777099
+            },
+            "keyword": "After",
+            "hidden": true
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "authentication;login-with-supported-users-from-shared-test-data",
+        "keyword": "Scenario Outline",
+        "line": 19,
+        "name": "Login with supported users from shared test data",
+        "steps": [
+          {
+            "result": {
+              "status": "passed",
+              "duration": 95457500
+            },
+            "keyword": "Before",
+            "hidden": true
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 1034271499
+            },
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 12,
+            "name": "I am on the login page",
+            "match": {
+              "location": "steps\\auth.steps.js:4"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 92362799
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 13,
+            "name": "I login with the \"problem\" user",
+            "match": {
+              "location": "steps\\auth.steps.js:45"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 4347700
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "I should be redirected to the products page",
+            "match": {
+              "location": "steps\\auth.steps.js:64"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 25992499
+            },
+            "keyword": "After",
+            "hidden": true
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "authentication;login-with-supported-users-from-shared-test-data",
+        "keyword": "Scenario Outline",
+        "line": 20,
+        "name": "Login with supported users from shared test data",
+        "steps": [
+          {
+            "result": {
+              "status": "passed",
+              "duration": 95338800
+            },
+            "keyword": "Before",
+            "hidden": true
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 1057166799
+            },
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 12,
+            "name": "I am on the login page",
+            "match": {
+              "location": "steps\\auth.steps.js:4"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 5079802399
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 13,
+            "name": "I login with the \"performanceGlitch\" user",
+            "match": {
+              "location": "steps\\auth.steps.js:45"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 15167799
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "I should be redirected to the products page",
+            "match": {
+              "location": "steps\\auth.steps.js:64"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 24445700
+            },
+            "keyword": "After",
+            "hidden": true
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "authentication;login-with-supported-users-from-shared-test-data",
+        "keyword": "Scenario Outline",
+        "line": 21,
+        "name": "Login with supported users from shared test data",
+        "steps": [
+          {
+            "result": {
+              "status": "passed",
+              "duration": 93377899
+            },
+            "keyword": "Before",
+            "hidden": true
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 1012538800
+            },
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 12,
+            "name": "I am on the login page",
+            "match": {
+              "location": "steps\\auth.steps.js:4"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 89638200
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 13,
+            "name": "I login with the \"error\" user",
+            "match": {
+              "location": "steps\\auth.steps.js:45"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 6200100
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "I should be redirected to the products page",
+            "match": {
+              "location": "steps\\auth.steps.js:64"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 33208699
+            },
+            "keyword": "After",
+            "hidden": true
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "authentication;login-with-supported-users-from-shared-test-data",
+        "keyword": "Scenario Outline",
+        "line": 22,
+        "name": "Login with supported users from shared test data",
+        "steps": [
+          {
+            "result": {
+              "status": "passed",
+              "duration": 98422499
+            },
+            "keyword": "Before",
+            "hidden": true
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 1288859000
+            },
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 12,
+            "name": "I am on the login page",
+            "match": {
+              "location": "steps\\auth.steps.js:4"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 79879400
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 13,
+            "name": "I login with the \"visual\" user",
+            "match": {
+              "location": "steps\\auth.steps.js:45"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 4951699
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "I should be redirected to the products page",
+            "match": {
+              "location": "steps\\auth.steps.js:64"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 32653599
+            },
+            "keyword": "After",
+            "hidden": true
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "authentication;login-with-locked-out-user-credentials",
+        "keyword": "Scenario",
+        "line": 24,
+        "name": "Login with locked out user credentials",
+        "steps": [
+          {
+            "result": {
+              "status": "passed",
+              "duration": 94739900
+            },
+            "keyword": "Before",
+            "hidden": true
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 1100739800
+            },
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 25,
+            "name": "I am on the login page",
+            "match": {
+              "location": "steps\\auth.steps.js:4"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 58166199
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 26,
+            "name": "I login with a locked out user",
+            "match": {
+              "location": "steps\\auth.steps.js:40"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 4591800
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 27,
+            "name": "I should see a locked out error message",
+            "match": {
+              "location": "steps\\auth.steps.js:57"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 23400600
+            },
+            "keyword": "After",
+            "hidden": true
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "authentication;login-with-invalid-credentials",
+        "keyword": "Scenario",
+        "line": 29,
+        "name": "Login with invalid credentials",
+        "steps": [
+          {
+            "result": {
+              "status": "passed",
+              "duration": 113105100
+            },
+            "keyword": "Before",
+            "hidden": true
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 1111605499
+            },
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 30,
+            "name": "I am on the login page",
+            "match": {
+              "location": "steps\\auth.steps.js:4"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 53535100
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 31,
+            "name": "I login with invalid credentials",
+            "match": {
+              "location": "steps\\auth.steps.js:52"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 4188200
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 32,
+            "name": "I should see a login error message",
+            "match": {
+              "location": "steps\\auth.steps.js:80"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 24692399
+            },
+            "keyword": "After",
+            "hidden": true
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "authentication;login-with-empty-credentials",
+        "keyword": "Scenario",
+        "line": 34,
+        "name": "Login with empty credentials",
+        "steps": [
+          {
+            "result": {
+              "status": "passed",
+              "duration": 94985599
+            },
+            "keyword": "Before",
+            "hidden": true
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 1007044999
+            },
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 35,
+            "name": "I am on the login page",
+            "match": {
+              "location": "steps\\auth.steps.js:4"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 44932199
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 36,
+            "name": "I login with empty credentials",
+            "match": {
+              "location": "steps\\auth.steps.js:9"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 3640500
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 37,
+            "name": "I should see a login error message",
+            "match": {
+              "location": "steps\\auth.steps.js:80"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 27506900
+            },
+            "keyword": "After",
+            "hidden": true
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "authentication;users-from-the-valid-group-can-log-in-and-then-log-out",
+        "keyword": "Scenario Outline",
+        "line": 48,
+        "name": "Users from the valid group can log in and then log out",
+        "steps": [
+          {
+            "result": {
+              "status": "passed",
+              "duration": 95846900
+            },
+            "keyword": "Before",
+            "hidden": true
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 1031524600
+            },
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 40,
+            "name": "I am on the login page",
+            "match": {
+              "location": "steps\\auth.steps.js:4"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 89166300
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 41,
+            "name": "I login with the \"standard\" user",
+            "match": {
+              "location": "steps\\auth.steps.js:45"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 41392600
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 42,
+            "name": "I open the burger menu",
+            "match": {
+              "location": "steps\\burger.steps.js:5"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 934497100
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 43,
+            "name": "I logout",
+            "match": {
+              "location": "steps\\burger.steps.js:15"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 2757600
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 44,
+            "name": "I should be returned to the login page",
+            "match": {
+              "location": "steps\\burger.steps.js:26"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 24972799
+            },
+            "keyword": "After",
+            "hidden": true
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "authentication;users-from-the-valid-group-can-log-in-and-then-log-out",
+        "keyword": "Scenario Outline",
+        "line": 49,
+        "name": "Users from the valid group can log in and then log out",
+        "steps": [
+          {
+            "result": {
+              "status": "passed",
+              "duration": 94543499
+            },
+            "keyword": "Before",
+            "hidden": true
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 997018399
+            },
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 40,
+            "name": "I am on the login page",
+            "match": {
+              "location": "steps\\auth.steps.js:4"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 82074499
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 41,
+            "name": "I login with the \"problem\" user",
+            "match": {
+              "location": "steps\\auth.steps.js:45"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 42829699
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 42,
+            "name": "I open the burger menu",
+            "match": {
+              "location": "steps\\burger.steps.js:5"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 921903800
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 43,
+            "name": "I logout",
+            "match": {
+              "location": "steps\\burger.steps.js:15"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 2086900
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 44,
+            "name": "I should be returned to the login page",
+            "match": {
+              "location": "steps\\burger.steps.js:26"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 24143599
+            },
+            "keyword": "After",
+            "hidden": true
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "authentication;users-from-the-valid-group-can-log-in-and-then-log-out",
+        "keyword": "Scenario Outline",
+        "line": 50,
+        "name": "Users from the valid group can log in and then log out",
+        "steps": [
+          {
+            "result": {
+              "status": "passed",
+              "duration": 102810499
+            },
+            "keyword": "Before",
+            "hidden": true
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 1036858700
+            },
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 40,
+            "name": "I am on the login page",
+            "match": {
+              "location": "steps\\auth.steps.js:4"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 5082058499
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 41,
+            "name": "I login with the \"performanceGlitch\" user",
+            "match": {
+              "location": "steps\\auth.steps.js:45"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 24288800
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 42,
+            "name": "I open the burger menu",
+            "match": {
+              "location": "steps\\burger.steps.js:5"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 907624599
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 43,
+            "name": "I logout",
+            "match": {
+              "location": "steps\\burger.steps.js:15"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 1981700
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 44,
+            "name": "I should be returned to the login page",
+            "match": {
+              "location": "steps\\burger.steps.js:26"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 24517599
+            },
+            "keyword": "After",
+            "hidden": true
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "authentication;users-from-the-valid-group-can-log-in-and-then-log-out",
+        "keyword": "Scenario Outline",
+        "line": 51,
+        "name": "Users from the valid group can log in and then log out",
+        "steps": [
+          {
+            "result": {
+              "status": "passed",
+              "duration": 94172600
+            },
+            "keyword": "Before",
+            "hidden": true
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 998859499
+            },
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 40,
+            "name": "I am on the login page",
+            "match": {
+              "location": "steps\\auth.steps.js:4"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 77835299
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 41,
+            "name": "I login with the \"error\" user",
+            "match": {
+              "location": "steps\\auth.steps.js:45"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 26517199
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 42,
+            "name": "I open the burger menu",
+            "match": {
+              "location": "steps\\burger.steps.js:5"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 903634099
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 43,
+            "name": "I logout",
+            "match": {
+              "location": "steps\\burger.steps.js:15"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 2259999
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 44,
+            "name": "I should be returned to the login page",
+            "match": {
+              "location": "steps\\burger.steps.js:26"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 23475800
+            },
+            "keyword": "After",
+            "hidden": true
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "authentication;users-from-the-valid-group-can-log-in-and-then-log-out",
+        "keyword": "Scenario Outline",
+        "line": 52,
+        "name": "Users from the valid group can log in and then log out",
+        "steps": [
+          {
+            "result": {
+              "status": "passed",
+              "duration": 94250199
+            },
+            "keyword": "Before",
+            "hidden": true
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 967776100
+            },
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 40,
+            "name": "I am on the login page",
+            "match": {
+              "location": "steps\\auth.steps.js:4"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 77994000
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 41,
+            "name": "I login with the \"visual\" user",
+            "match": {
+              "location": "steps\\auth.steps.js:45"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 25746299
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 42,
+            "name": "I open the burger menu",
+            "match": {
+              "location": "steps\\burger.steps.js:5"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 931187000
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 43,
+            "name": "I logout",
+            "match": {
+              "location": "steps\\burger.steps.js:15"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 2319100
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 44,
+            "name": "I should be returned to the login page",
+            "match": {
+              "location": "steps\\burger.steps.js:26"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 23886500
+            },
+            "keyword": "After",
+            "hidden": true
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "authentication;navigate-directly-to-the-inventory-page-without-login",
+        "keyword": "Scenario",
+        "line": 54,
+        "name": "Navigate directly to the inventory page without login",
+        "steps": [
+          {
+            "result": {
+              "status": "passed",
+              "duration": 94873099
+            },
+            "keyword": "Before",
+            "hidden": true
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 979959199
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 55,
+            "name": "I navigate directly to the inventory page",
+            "match": {
+              "location": "steps\\auth.steps.js:70"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 6722199
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 56,
+            "name": "I should be redirected to the login page",
+            "match": {
+              "location": "steps\\auth.steps.js:75"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 29713100
+            },
+            "keyword": "After",
+            "hidden": true
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "authentication",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Authentication",
+    "tags": [],
+    "uri": "features\\authentication.feature"
+  },
+  {
+    "description": "  As a logged-in user\n  I want to use the burger menu\n  So that I can navigate and logout from the app",
+    "elements": [
+      {
+        "description": "",
+        "id": "burger-menu;open-burger-menu-and-navigate-to-inventory",
+        "keyword": "Scenario Outline",
+        "line": 14,
+        "name": "Open burger menu and navigate to inventory",
+        "steps": [
+          {
+            "result": {
+              "status": "passed",
+              "duration": 95360000
+            },
+            "keyword": "Before",
+            "hidden": true
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 1054679299
+            },
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "I am logged in as the \"standard\" user",
+            "match": {
+              "location": "steps\\auth.steps.js:23"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 46216599
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "I open the burger menu",
+            "match": {
+              "location": "steps\\burger.steps.js:5"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 963110999
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "I navigate to all items",
+            "match": {
+              "location": "steps\\burger.steps.js:10"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 4010099
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "I should remain on the products page",
+            "match": {
+              "location": "steps\\burger.steps.js:20"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 23730099
+            },
+            "keyword": "After",
+            "hidden": true
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "burger-menu;open-burger-menu-and-navigate-to-inventory",
+        "keyword": "Scenario Outline",
+        "line": 15,
+        "name": "Open burger menu and navigate to inventory",
+        "steps": [
+          {
+            "result": {
+              "status": "passed",
+              "duration": 94921199
+            },
+            "keyword": "Before",
+            "hidden": true
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 1079821300
+            },
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "I am logged in as the \"problem\" user",
+            "match": {
+              "location": "steps\\auth.steps.js:23"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 26548400
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "I open the burger menu",
+            "match": {
+              "location": "steps\\burger.steps.js:5"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 927377200
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "I navigate to all items",
+            "match": {
+              "location": "steps\\burger.steps.js:10"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 3939399
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "I should remain on the products page",
+            "match": {
+              "location": "steps\\burger.steps.js:20"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 30943999
+            },
+            "keyword": "After",
+            "hidden": true
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "burger-menu;open-burger-menu-and-navigate-to-inventory",
+        "keyword": "Scenario Outline",
+        "line": 16,
+        "name": "Open burger menu and navigate to inventory",
+        "steps": [
+          {
+            "result": {
+              "status": "passed",
+              "duration": 92717399
+            },
+            "keyword": "Before",
+            "hidden": true
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 6085177900
+            },
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "I am logged in as the \"performanceGlitch\" user",
+            "match": {
+              "location": "steps\\auth.steps.js:23"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 39128799
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "I open the burger menu",
+            "match": {
+              "location": "steps\\burger.steps.js:5"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 5923384799
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "I navigate to all items",
+            "match": {
+              "location": "steps\\burger.steps.js:10"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 4600599
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "I should remain on the products page",
+            "match": {
+              "location": "steps\\burger.steps.js:20"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 25796900
+            },
+            "keyword": "After",
+            "hidden": true
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "burger-menu;open-burger-menu-and-navigate-to-inventory",
+        "keyword": "Scenario Outline",
+        "line": 17,
+        "name": "Open burger menu and navigate to inventory",
+        "steps": [
+          {
+            "result": {
+              "status": "passed",
+              "duration": 97439899
+            },
+            "keyword": "Before",
+            "hidden": true
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 1393101699
+            },
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "I am logged in as the \"error\" user",
+            "match": {
+              "location": "steps\\auth.steps.js:23"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 34460400
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "I open the burger menu",
+            "match": {
+              "location": "steps\\burger.steps.js:5"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 902071700
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "I navigate to all items",
+            "match": {
+              "location": "steps\\burger.steps.js:10"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 4242400
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "I should remain on the products page",
+            "match": {
+              "location": "steps\\burger.steps.js:20"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 23401699
+            },
+            "keyword": "After",
+            "hidden": true
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "burger-menu;open-burger-menu-and-navigate-to-inventory",
+        "keyword": "Scenario Outline",
+        "line": 18,
+        "name": "Open burger menu and navigate to inventory",
+        "steps": [
+          {
+            "result": {
+              "status": "passed",
+              "duration": 94299599
+            },
+            "keyword": "Before",
+            "hidden": true
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 1356082099
+            },
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "I am logged in as the \"visual\" user",
+            "match": {
+              "location": "steps\\auth.steps.js:23"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 33339200
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "I open the burger menu",
+            "match": {
+              "location": "steps\\burger.steps.js:5"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 901471700
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "I navigate to all items",
+            "match": {
+              "location": "steps\\burger.steps.js:10"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 3259299
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "I should remain on the products page",
+            "match": {
+              "location": "steps\\burger.steps.js:20"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 32827900
+            },
+            "keyword": "After",
+            "hidden": true
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "burger-menu;logout-from-the-burger-menu",
+        "keyword": "Scenario Outline",
+        "line": 28,
+        "name": "Logout from the burger menu",
+        "steps": [
+          {
+            "result": {
+              "status": "passed",
+              "duration": 93243599
+            },
+            "keyword": "Before",
+            "hidden": true
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 1371129800
+            },
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 21,
+            "name": "I am logged in as the \"standard\" user",
+            "match": {
+              "location": "steps\\auth.steps.js:23"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 56161800
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 22,
+            "name": "I open the burger menu",
+            "match": {
+              "location": "steps\\burger.steps.js:5"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 926493699
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 23,
+            "name": "I logout",
+            "match": {
+              "location": "steps\\burger.steps.js:15"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 2117900
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 24,
+            "name": "I should be returned to the login page",
+            "match": {
+              "location": "steps\\burger.steps.js:26"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 30716399
+            },
+            "keyword": "After",
+            "hidden": true
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "burger-menu;logout-from-the-burger-menu",
+        "keyword": "Scenario Outline",
+        "line": 29,
+        "name": "Logout from the burger menu",
+        "steps": [
+          {
+            "result": {
+              "status": "passed",
+              "duration": 94834399
+            },
+            "keyword": "Before",
+            "hidden": true
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 1368930700
+            },
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 21,
+            "name": "I am logged in as the \"problem\" user",
+            "match": {
+              "location": "steps\\auth.steps.js:23"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 26775000
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 22,
+            "name": "I open the burger menu",
+            "match": {
+              "location": "steps\\burger.steps.js:5"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 909346200
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 23,
+            "name": "I logout",
+            "match": {
+              "location": "steps\\burger.steps.js:15"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 2234500
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 24,
+            "name": "I should be returned to the login page",
+            "match": {
+              "location": "steps\\burger.steps.js:26"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 24150399
+            },
+            "keyword": "After",
+            "hidden": true
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "burger-menu;logout-from-the-burger-menu",
+        "keyword": "Scenario Outline",
+        "line": 30,
+        "name": "Logout from the burger menu",
+        "steps": [
+          {
+            "result": {
+              "status": "passed",
+              "duration": 95483299
+            },
+            "keyword": "Before",
+            "hidden": true
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 6329114199
+            },
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 21,
+            "name": "I am logged in as the \"performanceGlitch\" user",
+            "match": {
+              "location": "steps\\auth.steps.js:23"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 35995200
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 22,
+            "name": "I open the burger menu",
+            "match": {
+              "location": "steps\\burger.steps.js:5"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 922090700
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 23,
+            "name": "I logout",
+            "match": {
+              "location": "steps\\burger.steps.js:15"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 2403299
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 24,
+            "name": "I should be returned to the login page",
+            "match": {
+              "location": "steps\\burger.steps.js:26"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 31314799
+            },
+            "keyword": "After",
+            "hidden": true
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "burger-menu;logout-from-the-burger-menu",
+        "keyword": "Scenario Outline",
+        "line": 31,
+        "name": "Logout from the burger menu",
+        "steps": [
+          {
+            "result": {
+              "status": "passed",
+              "duration": 94217600
+            },
+            "keyword": "Before",
+            "hidden": true
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 1419372600
+            },
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 21,
+            "name": "I am logged in as the \"error\" user",
+            "match": {
+              "location": "steps\\auth.steps.js:23"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 25833499
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 22,
+            "name": "I open the burger menu",
+            "match": {
+              "location": "steps\\burger.steps.js:5"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 902429900
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 23,
+            "name": "I logout",
+            "match": {
+              "location": "steps\\burger.steps.js:15"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 2091500
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 24,
+            "name": "I should be returned to the login page",
+            "match": {
+              "location": "steps\\burger.steps.js:26"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 23584100
+            },
+            "keyword": "After",
+            "hidden": true
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "burger-menu;logout-from-the-burger-menu",
+        "keyword": "Scenario Outline",
+        "line": 32,
+        "name": "Logout from the burger menu",
+        "steps": [
+          {
+            "result": {
+              "status": "passed",
+              "duration": 100151599
+            },
+            "keyword": "Before",
+            "hidden": true
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 1421519299
+            },
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 21,
+            "name": "I am logged in as the \"visual\" user",
+            "match": {
+              "location": "steps\\auth.steps.js:23"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 30088699
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 22,
+            "name": "I open the burger menu",
+            "match": {
+              "location": "steps\\burger.steps.js:5"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 917393700
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 23,
+            "name": "I logout",
+            "match": {
+              "location": "steps\\burger.steps.js:15"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 2129000
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 24,
+            "name": "I should be returned to the login page",
+            "match": {
+              "location": "steps\\burger.steps.js:26"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 30255599
+            },
+            "keyword": "After",
+            "hidden": true
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "burger-menu",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Burger menu",
+    "tags": [],
+    "uri": "features\\burger_menu.feature"
+  },
+  {
+    "description": "  As a user who adds items to the cart\n  I want to verify cart contents and remove products\n  So that the cart behaves correctly",
+    "elements": [
+      {
+        "description": "",
+        "id": "cart-management;add-multiple-items-to-the-cart-and-verify-contents",
+        "keyword": "Scenario Outline",
+        "line": 14,
+        "name": "Add multiple items to the cart and verify contents",
+        "steps": [
+          {
+            "result": {
+              "status": "passed",
+              "duration": 95771699
+            },
+            "keyword": "Before",
+            "hidden": true
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 1410847399
+            },
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "I am logged in as the \"standard\" user",
+            "match": {
+              "location": "steps\\auth.steps.js:23"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 89553599
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "I add two products to the cart",
+            "match": {
+              "location": "steps\\products.steps.js:21"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 38675699
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "I go to the cart page",
+            "match": {
+              "location": "steps\\cart.steps.js:16"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 4718999
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "I should see both products in the cart",
+            "match": {
+              "location": "steps\\cart.steps.js:27"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 25914400
+            },
+            "keyword": "After",
+            "hidden": true
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "cart-management;add-multiple-items-to-the-cart-and-verify-contents",
+        "keyword": "Scenario Outline",
+        "line": 15,
+        "name": "Add multiple items to the cart and verify contents",
+        "steps": [
+          {
+            "result": {
+              "status": "passed",
+              "duration": 108954100
+            },
+            "keyword": "Before",
+            "hidden": true
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 1391767100
+            },
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "I am logged in as the \"problem\" user",
+            "match": {
+              "location": "steps\\auth.steps.js:23"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 61014200
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "I add two products to the cart",
+            "match": {
+              "location": "steps\\products.steps.js:21"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 35539699
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "I go to the cart page",
+            "match": {
+              "location": "steps\\cart.steps.js:16"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 4100200
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "I should see both products in the cart",
+            "match": {
+              "location": "steps\\cart.steps.js:27"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 23442199
+            },
+            "keyword": "After",
+            "hidden": true
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "cart-management;add-multiple-items-to-the-cart-and-verify-contents",
+        "keyword": "Scenario Outline",
+        "line": 16,
+        "name": "Add multiple items to the cart and verify contents",
+        "steps": [
+          {
+            "result": {
+              "status": "passed",
+              "duration": 97793200
+            },
+            "keyword": "Before",
+            "hidden": true
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 6425055900
+            },
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "I am logged in as the \"performanceGlitch\" user",
+            "match": {
+              "location": "steps\\auth.steps.js:23"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 90860799
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "I add two products to the cart",
+            "match": {
+              "location": "steps\\products.steps.js:21"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 38750499
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "I go to the cart page",
+            "match": {
+              "location": "steps\\cart.steps.js:16"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 4145799
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "I should see both products in the cart",
+            "match": {
+              "location": "steps\\cart.steps.js:27"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 23900999
+            },
+            "keyword": "After",
+            "hidden": true
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "cart-management;add-multiple-items-to-the-cart-and-verify-contents",
+        "keyword": "Scenario Outline",
+        "line": 17,
+        "name": "Add multiple items to the cart and verify contents",
+        "steps": [
+          {
+            "result": {
+              "status": "passed",
+              "duration": 94707399
+            },
+            "keyword": "Before",
+            "hidden": true
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 1362596100
+            },
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "I am logged in as the \"error\" user",
+            "match": {
+              "location": "steps\\auth.steps.js:23"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 57118600
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "I add two products to the cart",
+            "match": {
+              "location": "steps\\products.steps.js:21"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 37879400
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "I go to the cart page",
+            "match": {
+              "location": "steps\\cart.steps.js:16"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 4130499
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "I should see both products in the cart",
+            "match": {
+              "location": "steps\\cart.steps.js:27"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 31844599
+            },
+            "keyword": "After",
+            "hidden": true
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "cart-management;add-multiple-items-to-the-cart-and-verify-contents",
+        "keyword": "Scenario Outline",
+        "line": 18,
+        "name": "Add multiple items to the cart and verify contents",
+        "steps": [
+          {
+            "result": {
+              "status": "passed",
+              "duration": 92892699
+            },
+            "keyword": "Before",
+            "hidden": true
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 1369691600
+            },
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "I am logged in as the \"visual\" user",
+            "match": {
+              "location": "steps\\auth.steps.js:23"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 59085500
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "I add two products to the cart",
+            "match": {
+              "location": "steps\\products.steps.js:21"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 44123699
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "I go to the cart page",
+            "match": {
+              "location": "steps\\cart.steps.js:16"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 4694400
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "I should see both products in the cart",
+            "match": {
+              "location": "steps\\cart.steps.js:27"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 23778399
+            },
+            "keyword": "After",
+            "hidden": true
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "cart-management;remove-an-item-from-the-cart",
+        "keyword": "Scenario",
+        "line": 20,
+        "name": "Remove an item from the cart",
+        "steps": [
+          {
+            "result": {
+              "status": "passed",
+              "duration": 93541400
+            },
+            "keyword": "Before",
+            "hidden": true
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 1437041299
+            },
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 21,
+            "name": "I have added a product to the cart",
+            "match": {
+              "location": "steps\\cart.steps.js:4"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 1380845000
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 22,
+            "name": "I remove that product from the cart",
+            "match": {
+              "location": "steps\\cart.steps.js:21"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 3420200
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 23,
+            "name": "it should no longer appear in the cart",
+            "match": {
+              "location": "steps\\cart.steps.js:34"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 30064999
+            },
+            "keyword": "After",
+            "hidden": true
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "cart-management;cart-persists-after-logout-and-re-login",
+        "keyword": "Scenario Outline",
+        "line": 35,
+        "name": "Cart persists after logout and re-login",
+        "steps": [
+          {
+            "result": {
+              "status": "passed",
+              "duration": 96713400
+            },
+            "keyword": "Before",
+            "hidden": true
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 1435186400
+            },
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 26,
+            "name": "I am logged in as the \"standard\" user",
+            "match": {
+              "location": "steps\\auth.steps.js:23"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 44699300
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 27,
+            "name": "I add a product to the cart",
+            "match": {
+              "location": "steps\\products.steps.js:16"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 31434099
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 28,
+            "name": "I open the burger menu",
+            "match": {
+              "location": "steps\\burger.steps.js:5"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 905723800
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 29,
+            "name": "I logout",
+            "match": {
+              "location": "steps\\burger.steps.js:15"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 60819300
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 30,
+            "name": "I login with the \"standard\" user",
+            "match": {
+              "location": "steps\\auth.steps.js:45"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 39053299
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 31,
+            "name": "I should see the product in the cart",
+            "match": {
+              "location": "steps\\cart.steps.js:50"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 24386299
+            },
+            "keyword": "After",
+            "hidden": true
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "cart-management;cart-persists-after-logout-and-re-login",
+        "keyword": "Scenario Outline",
+        "line": 36,
+        "name": "Cart persists after logout and re-login",
+        "steps": [
+          {
+            "result": {
+              "status": "passed",
+              "duration": 95012900
+            },
+            "keyword": "Before",
+            "hidden": true
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 1411505099
+            },
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 26,
+            "name": "I am logged in as the \"problem\" user",
+            "match": {
+              "location": "steps\\auth.steps.js:23"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 45636700
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 27,
+            "name": "I add a product to the cart",
+            "match": {
+              "location": "steps\\products.steps.js:16"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 30611899
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 28,
+            "name": "I open the burger menu",
+            "match": {
+              "location": "steps\\burger.steps.js:5"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 906356700
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 29,
+            "name": "I logout",
+            "match": {
+              "location": "steps\\burger.steps.js:15"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 55456099
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 30,
+            "name": "I login with the \"problem\" user",
+            "match": {
+              "location": "steps\\auth.steps.js:45"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 46743300
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 31,
+            "name": "I should see the product in the cart",
+            "match": {
+              "location": "steps\\cart.steps.js:50"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 30674899
+            },
+            "keyword": "After",
+            "hidden": true
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "cart-management;cart-persists-after-logout-and-re-login",
+        "keyword": "Scenario Outline",
+        "line": 37,
+        "name": "Cart persists after logout and re-login",
+        "steps": [
+          {
+            "result": {
+              "status": "passed",
+              "duration": 92571800
+            },
+            "keyword": "Before",
+            "hidden": true
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 6564720000
+            },
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 26,
+            "name": "I am logged in as the \"performanceGlitch\" user",
+            "match": {
+              "location": "steps\\auth.steps.js:23"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 50553899
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 27,
+            "name": "I add a product to the cart",
+            "match": {
+              "location": "steps\\products.steps.js:16"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 33194699
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 28,
+            "name": "I open the burger menu",
+            "match": {
+              "location": "steps\\burger.steps.js:5"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 933005000
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 29,
+            "name": "I logout",
+            "match": {
+              "location": "steps\\burger.steps.js:15"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 5038037300
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 30,
+            "name": "I login with the \"performanceGlitch\" user",
+            "match": {
+              "location": "steps\\auth.steps.js:45"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 39128299
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 31,
+            "name": "I should see the product in the cart",
+            "match": {
+              "location": "steps\\cart.steps.js:50"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 32350800
+            },
+            "keyword": "After",
+            "hidden": true
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "cart-management;cart-persists-after-logout-and-re-login",
+        "keyword": "Scenario Outline",
+        "line": 38,
+        "name": "Cart persists after logout and re-login",
+        "steps": [
+          {
+            "result": {
+              "status": "passed",
+              "duration": 95348499
+            },
+            "keyword": "Before",
+            "hidden": true
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 1432012300
+            },
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 26,
+            "name": "I am logged in as the \"error\" user",
+            "match": {
+              "location": "steps\\auth.steps.js:23"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 43255900
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 27,
+            "name": "I add a product to the cart",
+            "match": {
+              "location": "steps\\products.steps.js:16"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 32166200
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 28,
+            "name": "I open the burger menu",
+            "match": {
+              "location": "steps\\burger.steps.js:5"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 913221799
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 29,
+            "name": "I logout",
+            "match": {
+              "location": "steps\\burger.steps.js:15"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 44724499
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 30,
+            "name": "I login with the \"error\" user",
+            "match": {
+              "location": "steps\\auth.steps.js:45"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 49067399
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 31,
+            "name": "I should see the product in the cart",
+            "match": {
+              "location": "steps\\cart.steps.js:50"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 22810800
+            },
+            "keyword": "After",
+            "hidden": true
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "cart-management;cart-persists-after-logout-and-re-login",
+        "keyword": "Scenario Outline",
+        "line": 39,
+        "name": "Cart persists after logout and re-login",
+        "steps": [
+          {
+            "result": {
+              "status": "passed",
+              "duration": 95998800
+            },
+            "keyword": "Before",
+            "hidden": true
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 1480753700
+            },
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 26,
+            "name": "I am logged in as the \"visual\" user",
+            "match": {
+              "location": "steps\\auth.steps.js:23"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 47688800
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 27,
+            "name": "I add a product to the cart",
+            "match": {
+              "location": "steps\\products.steps.js:16"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 51510999
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 28,
+            "name": "I open the burger menu",
+            "match": {
+              "location": "steps\\burger.steps.js:5"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 925549700
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 29,
+            "name": "I logout",
+            "match": {
+              "location": "steps\\burger.steps.js:15"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 51705799
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 30,
+            "name": "I login with the \"visual\" user",
+            "match": {
+              "location": "steps\\auth.steps.js:45"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 34705499
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 31,
+            "name": "I should see the product in the cart",
+            "match": {
+              "location": "steps\\cart.steps.js:50"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 30946499
+            },
+            "keyword": "After",
+            "hidden": true
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "cart-management;users-can-add-and-remove-a-product-to-leave-an-empty-cart",
+        "keyword": "Scenario Outline",
+        "line": 49,
+        "name": "Users can add and remove a product to leave an empty cart",
+        "steps": [
+          {
+            "result": {
+              "status": "passed",
+              "duration": 93713199
+            },
+            "keyword": "Before",
+            "hidden": true
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 1471915600
+            },
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 42,
+            "name": "I am logged in as the \"standard\" user",
+            "match": {
+              "location": "steps\\auth.steps.js:23"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 28248600
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 43,
+            "name": "I add a product to the cart",
+            "match": {
+              "location": "steps\\products.steps.js:16"
+            }
+          },
+          {
+            "result": {
+              "status": "failed",
+              "duration": 30015594800,
+              "error_message": "locator.click: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('.cart_item:has-text(\"Sauce Labs Backpack\") button')\u001b[22m\n\n    at CartPage.removeItem (C:\\Users\\User\\Desktop\\saucedemo-playwright-automation\\pages\\CartPage.js:25:70)\n    at CustomWorld.<anonymous> (C:\\Users\\User\\Desktop\\saucedemo-playwright-automation\\steps\\cart.steps.js:22:23)"
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 44,
+            "name": "I remove that product from the cart",
+            "match": {
+              "location": "steps\\cart.steps.js:21"
+            }
+          },
+          {
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 45,
+            "name": "the cart should be empty",
+            "match": {
+              "location": "steps\\cart.steps.js:41"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 129795799
+            },
+            "keyword": "After",
+            "hidden": true
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "cart-management;users-can-add-and-remove-a-product-to-leave-an-empty-cart",
+        "keyword": "Scenario Outline",
+        "line": 50,
+        "name": "Users can add and remove a product to leave an empty cart",
+        "steps": [
+          {
+            "result": {
+              "status": "passed",
+              "duration": 95574699
+            },
+            "keyword": "Before",
+            "hidden": true
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 1409453100
+            },
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 42,
+            "name": "I am logged in as the \"problem\" user",
+            "match": {
+              "location": "steps\\auth.steps.js:23"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 26374500
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 43,
+            "name": "I add a product to the cart",
+            "match": {
+              "location": "steps\\products.steps.js:16"
+            }
+          },
+          {
+            "result": {
+              "status": "failed",
+              "duration": 30007394800,
+              "error_message": "locator.click: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('.cart_item:has-text(\"Sauce Labs Backpack\") button')\u001b[22m\n\n    at CartPage.removeItem (C:\\Users\\User\\Desktop\\saucedemo-playwright-automation\\pages\\CartPage.js:25:70)\n    at CustomWorld.<anonymous> (C:\\Users\\User\\Desktop\\saucedemo-playwright-automation\\steps\\cart.steps.js:22:23)"
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 44,
+            "name": "I remove that product from the cart",
+            "match": {
+              "location": "steps\\cart.steps.js:21"
+            }
+          },
+          {
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 45,
+            "name": "the cart should be empty",
+            "match": {
+              "location": "steps\\cart.steps.js:41"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 115168100
+            },
+            "keyword": "After",
+            "hidden": true
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "cart-management;users-can-add-and-remove-a-product-to-leave-an-empty-cart",
+        "keyword": "Scenario Outline",
+        "line": 51,
+        "name": "Users can add and remove a product to leave an empty cart",
+        "steps": [
+          {
+            "result": {
+              "status": "passed",
+              "duration": 95593800
+            },
+            "keyword": "Before",
+            "hidden": true
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 6371274499
+            },
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 42,
+            "name": "I am logged in as the \"performanceGlitch\" user",
+            "match": {
+              "location": "steps\\auth.steps.js:23"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 36603199
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 43,
+            "name": "I add a product to the cart",
+            "match": {
+              "location": "steps\\products.steps.js:16"
+            }
+          },
+          {
+            "result": {
+              "status": "failed",
+              "duration": 30006666400,
+              "error_message": "locator.click: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('.cart_item:has-text(\"Sauce Labs Backpack\") button')\u001b[22m\n\n    at CartPage.removeItem (C:\\Users\\User\\Desktop\\saucedemo-playwright-automation\\pages\\CartPage.js:25:70)\n    at CustomWorld.<anonymous> (C:\\Users\\User\\Desktop\\saucedemo-playwright-automation\\steps\\cart.steps.js:22:23)"
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 44,
+            "name": "I remove that product from the cart",
+            "match": {
+              "location": "steps\\cart.steps.js:21"
+            }
+          },
+          {
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 45,
+            "name": "the cart should be empty",
+            "match": {
+              "location": "steps\\cart.steps.js:41"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 139802899
+            },
+            "keyword": "After",
+            "hidden": true
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "cart-management;users-can-add-and-remove-a-product-to-leave-an-empty-cart",
+        "keyword": "Scenario Outline",
+        "line": 52,
+        "name": "Users can add and remove a product to leave an empty cart",
+        "steps": [
+          {
+            "result": {
+              "status": "passed",
+              "duration": 95827500
+            },
+            "keyword": "Before",
+            "hidden": true
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 1420399900
+            },
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 42,
+            "name": "I am logged in as the \"error\" user",
+            "match": {
+              "location": "steps\\auth.steps.js:23"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 31952100
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 43,
+            "name": "I add a product to the cart",
+            "match": {
+              "location": "steps\\products.steps.js:16"
+            }
+          },
+          {
+            "result": {
+              "status": "failed",
+              "duration": 30003801500,
+              "error_message": "locator.click: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('.cart_item:has-text(\"Sauce Labs Backpack\") button')\u001b[22m\n\n    at CartPage.removeItem (C:\\Users\\User\\Desktop\\saucedemo-playwright-automation\\pages\\CartPage.js:25:70)\n    at CustomWorld.<anonymous> (C:\\Users\\User\\Desktop\\saucedemo-playwright-automation\\steps\\cart.steps.js:22:23)"
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 44,
+            "name": "I remove that product from the cart",
+            "match": {
+              "location": "steps\\cart.steps.js:21"
+            }
+          },
+          {
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 45,
+            "name": "the cart should be empty",
+            "match": {
+              "location": "steps\\cart.steps.js:41"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 127031099
+            },
+            "keyword": "After",
+            "hidden": true
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "cart-management;users-can-add-and-remove-a-product-to-leave-an-empty-cart",
+        "keyword": "Scenario Outline",
+        "line": 53,
+        "name": "Users can add and remove a product to leave an empty cart",
+        "steps": [
+          {
+            "result": {
+              "status": "passed",
+              "duration": 112648799
+            },
+            "keyword": "Before",
+            "hidden": true
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 1382804100
+            },
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 42,
+            "name": "I am logged in as the \"visual\" user",
+            "match": {
+              "location": "steps\\auth.steps.js:23"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 33603800
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 43,
+            "name": "I add a product to the cart",
+            "match": {
+              "location": "steps\\products.steps.js:16"
+            }
+          },
+          {
+            "result": {
+              "status": "failed",
+              "duration": 30012732399,
+              "error_message": "locator.click: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('.cart_item:has-text(\"Sauce Labs Backpack\") button')\u001b[22m\n\n    at CartPage.removeItem (C:\\Users\\User\\Desktop\\saucedemo-playwright-automation\\pages\\CartPage.js:25:70)\n    at CustomWorld.<anonymous> (C:\\Users\\User\\Desktop\\saucedemo-playwright-automation\\steps\\cart.steps.js:22:23)"
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 44,
+            "name": "I remove that product from the cart",
+            "match": {
+              "location": "steps\\cart.steps.js:21"
+            }
+          },
+          {
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 45,
+            "name": "the cart should be empty",
+            "match": {
+              "location": "steps\\cart.steps.js:41"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 126754399
+            },
+            "keyword": "After",
+            "hidden": true
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "cart-management",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Cart management",
+    "tags": [],
+    "uri": "features\\cart.feature"
+  },
+  {
+    "description": "  As a user with items in the cart\n  I want to complete checkout or see validation errors\n  So that purchase flow works correctly",
+    "elements": [
+      {
+        "description": "",
+        "id": "checkout-flow;complete-checkout-successfully",
+        "keyword": "Scenario Outline",
+        "line": 15,
+        "name": "Complete checkout successfully",
+        "steps": [
+          {
+            "result": {
+              "status": "passed",
+              "duration": 97835100
+            },
+            "keyword": "Before",
+            "hidden": true
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 1396968899
+            },
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "I am logged in as the \"standard\" user",
+            "match": {
+              "location": "steps\\auth.steps.js:23"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 26655700
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "I add a product to the cart",
+            "match": {
+              "location": "steps\\products.steps.js:16"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 78946499
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "I am on the checkout information page",
+            "match": {
+              "location": "steps\\checkout.steps.js:4"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 90861600
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "I submit valid checkout information",
+            "match": {
+              "location": "steps\\checkout.steps.js:14"
+            }
+          },
+          {
+            "result": {
+              "status": "failed",
+              "duration": 155700,
+              "error_message": "ReferenceError: expect is not defined\n    at CustomWorld.<anonymous> (C:\\Users\\User\\Desktop\\saucedemo-playwright-automation\\steps\\checkout.steps.js:32:3)"
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "I should see a successful order confirmation",
+            "match": {
+              "location": "steps\\checkout.steps.js:31"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 314258000
+            },
+            "keyword": "After",
+            "hidden": true
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "checkout-flow;complete-checkout-successfully",
+        "keyword": "Scenario Outline",
+        "line": 16,
+        "name": "Complete checkout successfully",
+        "steps": [
+          {
+            "result": {
+              "status": "passed",
+              "duration": 96380999
+            },
+            "keyword": "Before",
+            "hidden": true
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 1370975700
+            },
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "I am logged in as the \"problem\" user",
+            "match": {
+              "location": "steps\\auth.steps.js:23"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 44301200
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "I add a product to the cart",
+            "match": {
+              "location": "steps\\products.steps.js:16"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 85430699
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "I am on the checkout information page",
+            "match": {
+              "location": "steps\\checkout.steps.js:4"
+            }
+          },
+          {
+            "result": {
+              "status": "failed",
+              "duration": 10067517600,
+              "error_message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('[data-test=\"finish\"]')\nExpected: visible\nTimeout: 10000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"to.be.visible\" with timeout 10000ms\u001b[22m\n\u001b[2m  - waiting for locator('[data-test=\"finish\"]')\u001b[22m\n\n    at captureRawStack (C:\\Users\\User\\Desktop\\saucedemo-playwright-automation\\node_modules\\playwright-core\\lib\\coreBundle.js:3172:17)\n    at callMatcherAsStep (C:\\Users\\User\\Desktop\\saucedemo-playwright-automation\\node_modules\\playwright\\lib\\matchers\\expect.js:12877:57)\n    at Object.toBeVisible (C:\\Users\\User\\Desktop\\saucedemo-playwright-automation\\node_modules\\playwright\\lib\\matchers\\expect.js:12867:23)\n    at CheckoutPage.finish (C:\\Users\\User\\Desktop\\saucedemo-playwright-automation\\pages\\CheckoutPage.js:31:37)\n    at CustomWorld.<anonymous> (C:\\Users\\User\\Desktop\\saucedemo-playwright-automation\\steps\\checkout.steps.js:21:27)"
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "I submit valid checkout information",
+            "match": {
+              "location": "steps\\checkout.steps.js:14"
+            }
+          },
+          {
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "I should see a successful order confirmation",
+            "match": {
+              "location": "steps\\checkout.steps.js:31"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 81964900
+            },
+            "keyword": "After",
+            "hidden": true
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "checkout-flow;complete-checkout-successfully",
+        "keyword": "Scenario Outline",
+        "line": 17,
+        "name": "Complete checkout successfully",
+        "steps": [
+          {
+            "result": {
+              "status": "passed",
+              "duration": 94615200
+            },
+            "keyword": "Before",
+            "hidden": true
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 6344936900
+            },
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "I am logged in as the \"performanceGlitch\" user",
+            "match": {
+              "location": "steps\\auth.steps.js:23"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 52693599
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "I add a product to the cart",
+            "match": {
+              "location": "steps\\products.steps.js:16"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 85470800
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "I am on the checkout information page",
+            "match": {
+              "location": "steps\\checkout.steps.js:4"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 100975299
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "I submit valid checkout information",
+            "match": {
+              "location": "steps\\checkout.steps.js:14"
+            }
+          },
+          {
+            "result": {
+              "status": "failed",
+              "duration": 83400,
+              "error_message": "ReferenceError: expect is not defined\n    at CustomWorld.<anonymous> (C:\\Users\\User\\Desktop\\saucedemo-playwright-automation\\steps\\checkout.steps.js:32:3)"
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "I should see a successful order confirmation",
+            "match": {
+              "location": "steps\\checkout.steps.js:31"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 50397100
+            },
+            "keyword": "After",
+            "hidden": true
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "checkout-flow;complete-checkout-successfully",
+        "keyword": "Scenario Outline",
+        "line": 18,
+        "name": "Complete checkout successfully",
+        "steps": [
+          {
+            "result": {
+              "status": "passed",
+              "duration": 96840999
+            },
+            "keyword": "Before",
+            "hidden": true
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 1352375399
+            },
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "I am logged in as the \"error\" user",
+            "match": {
+              "location": "steps\\auth.steps.js:23"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 44130000
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "I add a product to the cart",
+            "match": {
+              "location": "steps\\products.steps.js:16"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 91496299
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "I am on the checkout information page",
+            "match": {
+              "location": "steps\\checkout.steps.js:4"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 101115300
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "I submit valid checkout information",
+            "match": {
+              "location": "steps\\checkout.steps.js:14"
+            }
+          },
+          {
+            "result": {
+              "status": "failed",
+              "duration": 81799,
+              "error_message": "ReferenceError: expect is not defined\n    at CustomWorld.<anonymous> (C:\\Users\\User\\Desktop\\saucedemo-playwright-automation\\steps\\checkout.steps.js:32:3)"
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "I should see a successful order confirmation",
+            "match": {
+              "location": "steps\\checkout.steps.js:31"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 290417299
+            },
+            "keyword": "After",
+            "hidden": true
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "checkout-flow;complete-checkout-successfully",
+        "keyword": "Scenario Outline",
+        "line": 19,
+        "name": "Complete checkout successfully",
+        "steps": [
+          {
+            "result": {
+              "status": "passed",
+              "duration": 95782700
+            },
+            "keyword": "Before",
+            "hidden": true
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 1339652000
+            },
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "I am logged in as the \"visual\" user",
+            "match": {
+              "location": "steps\\auth.steps.js:23"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 44383600
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "I add a product to the cart",
+            "match": {
+              "location": "steps\\products.steps.js:16"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 85224400
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "I am on the checkout information page",
+            "match": {
+              "location": "steps\\checkout.steps.js:4"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 99820200
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "I submit valid checkout information",
+            "match": {
+              "location": "steps\\checkout.steps.js:14"
+            }
+          },
+          {
+            "result": {
+              "status": "failed",
+              "duration": 81599,
+              "error_message": "ReferenceError: expect is not defined\n    at CustomWorld.<anonymous> (C:\\Users\\User\\Desktop\\saucedemo-playwright-automation\\steps\\checkout.steps.js:32:3)"
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "I should see a successful order confirmation",
+            "match": {
+              "location": "steps\\checkout.steps.js:31"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 230815699
+            },
+            "keyword": "After",
+            "hidden": true
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "checkout-flow;checkout-fails-when-required-information-is-missing",
+        "keyword": "Scenario Outline",
+        "line": 30,
+        "name": "Checkout fails when required information is missing",
+        "steps": [
+          {
+            "result": {
+              "status": "passed",
+              "duration": 95553200
+            },
+            "keyword": "Before",
+            "hidden": true
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 1370423399
+            },
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 22,
+            "name": "I am logged in as the \"standard\" user",
+            "match": {
+              "location": "steps\\auth.steps.js:23"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 46801399
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 23,
+            "name": "I add a product to the cart",
+            "match": {
+              "location": "steps\\products.steps.js:16"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 88138500
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 24,
+            "name": "I am on the checkout information page",
+            "match": {
+              "location": "steps\\checkout.steps.js:4"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 49223700
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 25,
+            "name": "I submit incomplete checkout information",
+            "match": {
+              "location": "steps\\checkout.steps.js:25"
+            }
+          },
+          {
+            "result": {
+              "status": "failed",
+              "duration": 151899,
+              "error_message": "ReferenceError: expect is not defined\n    at CustomWorld.<anonymous> (C:\\Users\\User\\Desktop\\saucedemo-playwright-automation\\steps\\checkout.steps.js:39:3)"
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 26,
+            "name": "I should see a first name required error",
+            "match": {
+              "location": "steps\\checkout.steps.js:38"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 246270599
+            },
+            "keyword": "After",
+            "hidden": true
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "checkout-flow;checkout-fails-when-required-information-is-missing",
+        "keyword": "Scenario Outline",
+        "line": 31,
+        "name": "Checkout fails when required information is missing",
+        "steps": [
+          {
+            "result": {
+              "status": "passed",
+              "duration": 97046600
+            },
+            "keyword": "Before",
+            "hidden": true
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 1373451399
+            },
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 22,
+            "name": "I am logged in as the \"problem\" user",
+            "match": {
+              "location": "steps\\auth.steps.js:23"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 52758300
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 23,
+            "name": "I add a product to the cart",
+            "match": {
+              "location": "steps\\products.steps.js:16"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 80374199
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 24,
+            "name": "I am on the checkout information page",
+            "match": {
+              "location": "steps\\checkout.steps.js:4"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 44860799
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 25,
+            "name": "I submit incomplete checkout information",
+            "match": {
+              "location": "steps\\checkout.steps.js:25"
+            }
+          },
+          {
+            "result": {
+              "status": "failed",
+              "duration": 110799,
+              "error_message": "ReferenceError: expect is not defined\n    at CustomWorld.<anonymous> (C:\\Users\\User\\Desktop\\saucedemo-playwright-automation\\steps\\checkout.steps.js:39:3)"
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 26,
+            "name": "I should see a first name required error",
+            "match": {
+              "location": "steps\\checkout.steps.js:38"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 273960800
+            },
+            "keyword": "After",
+            "hidden": true
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "checkout-flow;checkout-fails-when-required-information-is-missing",
+        "keyword": "Scenario Outline",
+        "line": 32,
+        "name": "Checkout fails when required information is missing",
+        "steps": [
+          {
+            "result": {
+              "status": "passed",
+              "duration": 96095299
+            },
+            "keyword": "Before",
+            "hidden": true
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 6386857000
+            },
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 22,
+            "name": "I am logged in as the \"performanceGlitch\" user",
+            "match": {
+              "location": "steps\\auth.steps.js:23"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 51900599
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 23,
+            "name": "I add a product to the cart",
+            "match": {
+              "location": "steps\\products.steps.js:16"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 74156200
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 24,
+            "name": "I am on the checkout information page",
+            "match": {
+              "location": "steps\\checkout.steps.js:4"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 46164700
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 25,
+            "name": "I submit incomplete checkout information",
+            "match": {
+              "location": "steps\\checkout.steps.js:25"
+            }
+          },
+          {
+            "result": {
+              "status": "failed",
+              "duration": 85900,
+              "error_message": "ReferenceError: expect is not defined\n    at CustomWorld.<anonymous> (C:\\Users\\User\\Desktop\\saucedemo-playwright-automation\\steps\\checkout.steps.js:39:3)"
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 26,
+            "name": "I should see a first name required error",
+            "match": {
+              "location": "steps\\checkout.steps.js:38"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 91519100
+            },
+            "keyword": "After",
+            "hidden": true
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "checkout-flow;checkout-fails-when-required-information-is-missing",
+        "keyword": "Scenario Outline",
+        "line": 33,
+        "name": "Checkout fails when required information is missing",
+        "steps": [
+          {
+            "result": {
+              "status": "passed",
+              "duration": 95534000
+            },
+            "keyword": "Before",
+            "hidden": true
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 1352204000
+            },
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 22,
+            "name": "I am logged in as the \"error\" user",
+            "match": {
+              "location": "steps\\auth.steps.js:23"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 37501999
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 23,
+            "name": "I add a product to the cart",
+            "match": {
+              "location": "steps\\products.steps.js:16"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 100312900
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 24,
+            "name": "I am on the checkout information page",
+            "match": {
+              "location": "steps\\checkout.steps.js:4"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 52668799
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 25,
+            "name": "I submit incomplete checkout information",
+            "match": {
+              "location": "steps\\checkout.steps.js:25"
+            }
+          },
+          {
+            "result": {
+              "status": "failed",
+              "duration": 81999,
+              "error_message": "ReferenceError: expect is not defined\n    at CustomWorld.<anonymous> (C:\\Users\\User\\Desktop\\saucedemo-playwright-automation\\steps\\checkout.steps.js:39:3)"
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 26,
+            "name": "I should see a first name required error",
+            "match": {
+              "location": "steps\\checkout.steps.js:38"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 293215099
+            },
+            "keyword": "After",
+            "hidden": true
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "checkout-flow;checkout-fails-when-required-information-is-missing",
+        "keyword": "Scenario Outline",
+        "line": 34,
+        "name": "Checkout fails when required information is missing",
+        "steps": [
+          {
+            "result": {
+              "status": "passed",
+              "duration": 93327099
+            },
+            "keyword": "Before",
+            "hidden": true
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 1376504100
+            },
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 22,
+            "name": "I am logged in as the \"visual\" user",
+            "match": {
+              "location": "steps\\auth.steps.js:23"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 26626600
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 23,
+            "name": "I add a product to the cart",
+            "match": {
+              "location": "steps\\products.steps.js:16"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 69630199
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 24,
+            "name": "I am on the checkout information page",
+            "match": {
+              "location": "steps\\checkout.steps.js:4"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 52534400
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 25,
+            "name": "I submit incomplete checkout information",
+            "match": {
+              "location": "steps\\checkout.steps.js:25"
+            }
+          },
+          {
+            "result": {
+              "status": "failed",
+              "duration": 82300,
+              "error_message": "ReferenceError: expect is not defined\n    at CustomWorld.<anonymous> (C:\\Users\\User\\Desktop\\saucedemo-playwright-automation\\steps\\checkout.steps.js:39:3)"
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 26,
+            "name": "I should see a first name required error",
+            "match": {
+              "location": "steps\\checkout.steps.js:38"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 309502600
+            },
+            "keyword": "After",
+            "hidden": true
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "checkout-flow",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Checkout flow",
+    "tags": [],
+    "uri": "features\\checkout.feature"
+  },
+  {
+    "description": "  As a logged-in user\n  I want to view and interact with product listings\n  So that I can add items to my cart",
+    "elements": [
+      {
+        "description": "",
+        "id": "products-page;view-products-page-with-supported-users",
+        "keyword": "Scenario Outline",
+        "line": 13,
+        "name": "View products page with supported users",
+        "steps": [
+          {
+            "result": {
+              "status": "passed",
+              "duration": 96163900
+            },
+            "keyword": "Before",
+            "hidden": true
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 1359182900
+            },
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "I am logged in as the \"standard\" user",
+            "match": {
+              "location": "steps\\auth.steps.js:23"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 3860000
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "I should see the Products page",
+            "match": {
+              "location": "steps\\products.steps.js:4"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 6801600
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "I should see the available products",
+            "match": {
+              "location": "steps\\products.steps.js:9"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 24769499
+            },
+            "keyword": "After",
+            "hidden": true
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "products-page;view-products-page-with-supported-users",
+        "keyword": "Scenario Outline",
+        "line": 14,
+        "name": "View products page with supported users",
+        "steps": [
+          {
+            "result": {
+              "status": "passed",
+              "duration": 92159700
+            },
+            "keyword": "Before",
+            "hidden": true
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 1355455000
+            },
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "I am logged in as the \"problem\" user",
+            "match": {
+              "location": "steps\\auth.steps.js:23"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 5375100
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "I should see the Products page",
+            "match": {
+              "location": "steps\\products.steps.js:4"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 8098600
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "I should see the available products",
+            "match": {
+              "location": "steps\\products.steps.js:9"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 24012500
+            },
+            "keyword": "After",
+            "hidden": true
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "products-page;view-products-page-with-supported-users",
+        "keyword": "Scenario Outline",
+        "line": 15,
+        "name": "View products page with supported users",
+        "steps": [
+          {
+            "result": {
+              "status": "passed",
+              "duration": 93790199
+            },
+            "keyword": "Before",
+            "hidden": true
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 6355397900
+            },
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "I am logged in as the \"performanceGlitch\" user",
+            "match": {
+              "location": "steps\\auth.steps.js:23"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 7801900
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "I should see the Products page",
+            "match": {
+              "location": "steps\\products.steps.js:4"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 8548000
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "I should see the available products",
+            "match": {
+              "location": "steps\\products.steps.js:9"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 23135200
+            },
+            "keyword": "After",
+            "hidden": true
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "products-page;view-products-page-with-supported-users",
+        "keyword": "Scenario Outline",
+        "line": 16,
+        "name": "View products page with supported users",
+        "steps": [
+          {
+            "result": {
+              "status": "passed",
+              "duration": 94779999
+            },
+            "keyword": "Before",
+            "hidden": true
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 1368291900
+            },
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "I am logged in as the \"error\" user",
+            "match": {
+              "location": "steps\\auth.steps.js:23"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 4088100
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "I should see the Products page",
+            "match": {
+              "location": "steps\\products.steps.js:4"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 9221399
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "I should see the available products",
+            "match": {
+              "location": "steps\\products.steps.js:9"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 23359900
+            },
+            "keyword": "After",
+            "hidden": true
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "products-page;view-products-page-with-supported-users",
+        "keyword": "Scenario Outline",
+        "line": 17,
+        "name": "View products page with supported users",
+        "steps": [
+          {
+            "result": {
+              "status": "passed",
+              "duration": 93752600
+            },
+            "keyword": "Before",
+            "hidden": true
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 1349650000
+            },
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "I am logged in as the \"visual\" user",
+            "match": {
+              "location": "steps\\auth.steps.js:23"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 5007099
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "I should see the Products page",
+            "match": {
+              "location": "steps\\products.steps.js:4"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 8630699
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "I should see the available products",
+            "match": {
+              "location": "steps\\products.steps.js:9"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 23822700
+            },
+            "keyword": "After",
+            "hidden": true
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "products-page;add-a-product-to-the-cart-from-products-page",
+        "keyword": "Scenario Outline",
+        "line": 26,
+        "name": "Add a product to the cart from products page",
+        "steps": [
+          {
+            "result": {
+              "status": "passed",
+              "duration": 95391699
+            },
+            "keyword": "Before",
+            "hidden": true
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 1370493299
+            },
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 20,
+            "name": "I am logged in as the \"standard\" user",
+            "match": {
+              "location": "steps\\auth.steps.js:23"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 36473399
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 21,
+            "name": "I add a product to the cart",
+            "match": {
+              "location": "steps\\products.steps.js:16"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 3847499
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 22,
+            "name": "the cart badge should show 1 item",
+            "match": {
+              "location": "steps\\products.steps.js:27"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 24726900
+            },
+            "keyword": "After",
+            "hidden": true
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "products-page;add-a-product-to-the-cart-from-products-page",
+        "keyword": "Scenario Outline",
+        "line": 27,
+        "name": "Add a product to the cart from products page",
+        "steps": [
+          {
+            "result": {
+              "status": "passed",
+              "duration": 92489500
+            },
+            "keyword": "Before",
+            "hidden": true
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 1331070899
+            },
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 20,
+            "name": "I am logged in as the \"problem\" user",
+            "match": {
+              "location": "steps\\auth.steps.js:23"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 52053200
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 21,
+            "name": "I add a product to the cart",
+            "match": {
+              "location": "steps\\products.steps.js:16"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 5333700
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 22,
+            "name": "the cart badge should show 1 item",
+            "match": {
+              "location": "steps\\products.steps.js:27"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 24054600
+            },
+            "keyword": "After",
+            "hidden": true
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "products-page;add-a-product-to-the-cart-from-products-page",
+        "keyword": "Scenario Outline",
+        "line": 28,
+        "name": "Add a product to the cart from products page",
+        "steps": [
+          {
+            "result": {
+              "status": "passed",
+              "duration": 96213600
+            },
+            "keyword": "Before",
+            "hidden": true
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 6376029399
+            },
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 20,
+            "name": "I am logged in as the \"performanceGlitch\" user",
+            "match": {
+              "location": "steps\\auth.steps.js:23"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 38311600
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 21,
+            "name": "I add a product to the cart",
+            "match": {
+              "location": "steps\\products.steps.js:16"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 4417100
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 22,
+            "name": "the cart badge should show 1 item",
+            "match": {
+              "location": "steps\\products.steps.js:27"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 22978800
+            },
+            "keyword": "After",
+            "hidden": true
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "products-page;add-a-product-to-the-cart-from-products-page",
+        "keyword": "Scenario Outline",
+        "line": 29,
+        "name": "Add a product to the cart from products page",
+        "steps": [
+          {
+            "result": {
+              "status": "passed",
+              "duration": 97530499
+            },
+            "keyword": "Before",
+            "hidden": true
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 1409762199
+            },
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 20,
+            "name": "I am logged in as the \"error\" user",
+            "match": {
+              "location": "steps\\auth.steps.js:23"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 27145000
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 21,
+            "name": "I add a product to the cart",
+            "match": {
+              "location": "steps\\products.steps.js:16"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 4274299
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 22,
+            "name": "the cart badge should show 1 item",
+            "match": {
+              "location": "steps\\products.steps.js:27"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 23966899
+            },
+            "keyword": "After",
+            "hidden": true
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "products-page;add-a-product-to-the-cart-from-products-page",
+        "keyword": "Scenario Outline",
+        "line": 30,
+        "name": "Add a product to the cart from products page",
+        "steps": [
+          {
+            "result": {
+              "status": "passed",
+              "duration": 92506999
+            },
+            "keyword": "Before",
+            "hidden": true
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 1415567699
+            },
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 20,
+            "name": "I am logged in as the \"visual\" user",
+            "match": {
+              "location": "steps\\auth.steps.js:23"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 43149200
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 21,
+            "name": "I add a product to the cart",
+            "match": {
+              "location": "steps\\products.steps.js:16"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 4442199
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 22,
+            "name": "the cart badge should show 1 item",
+            "match": {
+              "location": "steps\\products.steps.js:27"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 31075200
+            },
+            "keyword": "After",
+            "hidden": true
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "products-page",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Products page",
+    "tags": [],
+    "uri": "features\\products.feature"
+  }
+]

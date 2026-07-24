@@ -1,0 +1,5 @@
+{
+    "playwrightBdd.configPath": "playwright.config.js",
+    "playwrightBdd.featureFolder": "features",
+    "playwrightBdd.stepsFolder": "steps"
+}

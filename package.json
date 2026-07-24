@@ -1,0 +1,25 @@
+{
+  "name": "saucedemo-playwright-automation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node scripts/run-cucumber.js",
+    "bdd": "node scripts/run-cucumber.js",
+    "test:parallel": "node scripts/run-cucumber.js --parallel 2",
+    "test:parallel:ci": "node scripts/run-cucumber.js --parallel 4",
+    "test:report": "npx allure generate allure-results --clean -o allure-report",
+    "test:report:open": "npx allure open allure-report"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@cucumber/cucumber": "^13.2.0",
+    "@playwright/test": "^1.61.1",
+    "allure-commandline": "^2.43.0",
+    "allure-cucumberjs": "^3.10.2"
+  },
+  "dependencies": {}
+}
