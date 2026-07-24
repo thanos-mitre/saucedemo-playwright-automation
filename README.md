@@ -1,6 +1,5 @@
 # SauceDemo Playwright BDD Automation
 
-![CI/CD Status](https://github.com/thanos-mitre/saucedemo-playwright-automation/actions/workflows/ci.yml/badge.svg)
 
 ## Project Overview
 This repository contains a behavior-driven automation framework for the SauceDemo website (`https://www.saucedemo.com`). The project uses:
